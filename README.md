@@ -20,7 +20,7 @@ A calculator application built with the Tkinter library. This calculator feature
 # Getting Started:
 Clone the repository:
     
-    git clone https://github.com/your-username/simple-calculator.git
+    git clone https://github.com/JashThakkar/calculator.git
 
     
 Run the calculator.py file:
