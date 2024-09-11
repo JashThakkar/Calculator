@@ -1,12 +1,14 @@
 from tkinter import *
 
+# Basic Build
 app = Tk()
 app.title('Calculator')
 app.geometry('325x442')
 
+# List where all inpute will be stored
 buttons_pressed = []
 
-
+# Each button gets its own function that places the user inpute into the text box and adds it to the list
 def press_0():
     txt.insert(END, '0')
     buttons_pressed.append('0')
@@ -82,6 +84,7 @@ def press_clear():
     buttons_pressed.clear()
 
 
+# Logic for the calculations happends after the user presses the equal button
 def press_eq():
     x = 0
     part_two = part_one = ''
@@ -141,6 +144,7 @@ def press_eq():
             buttons_pressed.append(dig)
 
 
+# Format for the GUI the user inpute textbox and the buttons
 txt = Text(master=app, height=5, width=45)
 txt.grid(row=0, column=0, columnspan=4)
 
