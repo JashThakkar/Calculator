@@ -24,9 +24,11 @@ A calculator application built with the Tkinter library. This calculator feature
     2. Run the calculator.py file 🏃‍♂️:
     
             python calculator.py
+            python3 calculator.py
     
     
-    3. May need to install packages 📦:
+    4. May need to install packages 📦:
        
        
              pip install customtkinter
+             pip3 install customtkinter
